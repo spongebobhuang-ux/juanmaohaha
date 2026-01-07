@@ -223,64 +223,18 @@
     <script>
         // ================= 数据源 =================
         let homeModules = [
-    {
-        "id": "h1",
-        "title": "产品项目",
-        "cover": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&q=80",
-        "targetCategory": "product"
-    },
-    {
-        "id": "h2",
-        "title": "线下项目",
-        "cover": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80",
-        "targetCategory": "offline"
-    },
-    {
-        "id": "h3",
-        "title": "电商展示",
-        "cover": "https://images.unsplash.com/photo-1472851294608-4155f2118c03?w=600&q=80",
-        "targetCategory": "ecommerce"
-    },
-    {
-        "id": "h4",
-        "title": "品牌内容",
-        "cover": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=600&q=80",
-        "targetCategory": "brand"
-    }
-];
+            { id: 'h1', title: "产品项目", cover: "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=600&q=80", targetCategory: "product" },
+            { id: 'h2', title: "线下项目", cover: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80", targetCategory: "offline" },
+            { id: 'h3', title: "电商展示", cover: "https://images.unsplash.com/photo-1472851294608-4155f2118c03?w=600&q=80", targetCategory: "ecommerce" },
+            { id: 'h4', title: "品牌内容", cover: "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=600&q=80", targetCategory: "brand" }
+        ];
 
-let allProjects = [
-    {
-        "title": "AI作品",
-        "category": "offline",
-        "img": "images/p1.jpg",
-        "desc": ""
-    },
-    {
-        "title": "智能音箱详情",
-        "category": "product",
-        "img": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=800&q=80",
-        "desc": "2024 / Product Design"
-    },
-    {
-        "title": "上海展会易拉宝",
-        "category": "offline",
-        "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80",
-        "desc": "2024 / Exhibition"
-    },
-    {
-        "title": "双11大促主图",
-        "category": "ecommerce",
-        "img": "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?w=800&q=80",
-        "desc": "Campaign Design"
-    },
-    {
-        "title": "品牌VI手册",
-        "category": "brand",
-        "img": "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&q=80",
-        "desc": "Identity System"
-    }
-];
+        let allProjects = [
+            { title: "智能音箱详情", category: "product", img: "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=800&q=80", desc: "2024 / Product Design" },
+            { title: "上海展会易拉宝", category: "offline", img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80", desc: "2024 / Exhibition" },
+            { title: "双11大促主图", category: "ecommerce", img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?w=800&q=80", desc: "Campaign Design" },
+            { title: "品牌VI手册", category: "brand", img: "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=800&q=80", desc: "Identity System" }
+        ];
 
         const categoryNames = { "product": "产品项目", "offline": "线下项目", "ecommerce": "电商展示", "brand": "品牌内容" };
 
@@ -484,4 +438,3 @@ let allProjects = ${dataStr};
     </script>
 </body>
 </html>
-
